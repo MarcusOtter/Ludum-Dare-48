@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4352524892372575894
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4352524892372575895}
+  - component: {fileID: 4352524892372575893}
+  m_Layer: 0
+  m_Name: Obstacle spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4352524892372575895
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4352524892372575894}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4352524892372575893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4352524892372575894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad4cc7f20577ca74daeed7639c3cb7c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obstacles:
+  - {fileID: 432669922135012254, guid: 010f177267e02a4498711801931720aa, type: 3}
+  - {fileID: 432669922135012254, guid: e24f855fcb5d1694d8534b24f4b522e3, type: 3}
+  - {fileID: 432669922135012254, guid: 74ceb2856478c154098b865935a481e5, type: 3}
+  - {fileID: 432669922135012254, guid: f4941f62a19863741b67ecc798110313, type: 3}
+  - {fileID: 432669922135012254, guid: 764be267fc44b4c419b6c88136c0b8d5, type: 3}
+  - {fileID: 432669922135012254, guid: fe5aa57359980e3489a1e1b6c0662170, type: 3}
+  - {fileID: 432669922135012254, guid: d0aff9c5446f56f448f68a130c838adc, type: 3}
+  - {fileID: 432669922135012254, guid: 875590a8bbef4044299b0ddba41a9f0d, type: 3}
+  - {fileID: 432669922135012254, guid: 7b8645792ec3c0b469c1a038d2aa24fd, type: 3}
+  - {fileID: 432669922135012254, guid: 38357c648e7eb2f4884f782a3e3e256b, type: 3}
+  - {fileID: 432669922135012254, guid: b9d7885485eb85a4c9a8a299b4347810, type: 3}
+  - {fileID: 432669922135012254, guid: 07d7fe32c8c8b6a4bad45604fd10a094, type: 3}
+  - {fileID: 432669922135012254, guid: d90d9d04faa0e674fafe634f3c1697a4, type: 3}
+  - {fileID: 432669922135012254, guid: 43e22aad54bf1f84489cf847e6ffe2f8, type: 3}
+  - {fileID: 432669922135012254, guid: 271f7fed8065a7d4d990ebab36fd638b, type: 3}
+  - {fileID: 432669922135012254, guid: 44c695e93e124b84a8a8fdb3d509a393, type: 3}
+  - {fileID: 432669922135012254, guid: 0eb13684087677d4ebaf08da95fe1713, type: 3}
+  - {fileID: 432669922135012254, guid: 74620e175cd8d1743990a8670a67b5f3, type: 3}
+  - {fileID: 432669922135012254, guid: ae5615d1cc2a8fd4faadcb3a28b0e270, type: 3}
+  - {fileID: 432669922135012254, guid: 97e640765454146479adf0dbe4e8f074, type: 3}
+  - {fileID: 432669922135012254, guid: 8c667f2d130f6e74abcc61e561667f4a, type: 3}
+  - {fileID: 432669922135012254, guid: 0a7dcff97313e6948a90f41b086d22c4, type: 3}
+  - {fileID: 432669922135012254, guid: ba5de7e5eb00dbe40945d9d29bc72c98, type: 3}
+  player: {fileID: 0}
+  spawnDistanceFromPlayer: 80

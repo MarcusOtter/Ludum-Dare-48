@@ -1,0 +1,7 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Tell GitHub what's up with my files
+*.shader linguist-vendored
+*.cginc linguist-vendored
+*.cs linguist-language=C#
