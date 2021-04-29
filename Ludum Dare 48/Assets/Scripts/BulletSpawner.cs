@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -5,7 +6,7 @@ public class BulletSpawner : MonoBehaviour
 {
     [Header("References")]
     [SerializeField] private Bullet bulletPrefab;
-    [SerializeField] private Text ammoText;
+    [SerializeField] private TextMeshProUGUI ammoText;
 
     [Header("Fields")]
     [SerializeField] private float bulletVelocity = 30;
